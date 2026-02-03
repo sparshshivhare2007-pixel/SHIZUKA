@@ -4,6 +4,12 @@
   <img src="https://files.catbox.moe/jifdcf.jpg" alt="DestinyxMusicLogo" width="600" height="150">
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/github/stars/sparshshivhare2007-pixel/SHIZUKA?style=for-the-badge&color=blue" />
+  <img src="https://img.shields.io/github/forks/sparshshivhare2007-pixel/SHIZUKA?style=for-the-badge&color=blue" />
+  <img src="https://img.shields.io/github/issues/sparshshivhare2007-pixel/SHIZUKA?style=for-the-badge&color=red" />
+  <img src="https://img.shields.io/github/license/sparshshivhare2007-pixel/SHIZUKA?style=for-the-badge&color=green" />
+</p>
 
 <h2 align="center">Delivering Superior Music Experience to Telegram</h2>
 
