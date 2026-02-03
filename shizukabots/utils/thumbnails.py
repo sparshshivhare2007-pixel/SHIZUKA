@@ -89,8 +89,8 @@ async def gen_thumb(videoid: str, thumb_size=(1280, 720)):
         bg = Image.blend(bg, grad, 0.2)
 
         draw = ImageDraw.Draw(bg)
-        font_small = ImageFont.truetype("AviaxMusic/assets/font2.ttf", 30)
-        font_title = ImageFont.truetype("AviaxMusic/assets/font3.ttf", 45)
+        font_small = ImageFont.truetype("shizukabots/assets/font2.ttf", 30)
+        font_title = ImageFont.truetype("shizukabots/assets/font3.ttf", 45)
 
         circle = circular_crop(base_img, 400, 20, random_color())
         circle.show()
@@ -114,7 +114,7 @@ async def gen_thumb(videoid: str, thumb_size=(1280, 720)):
         draw_text(draw, (x, 400), "00:00", font_small, "white")
         draw_text(draw, (1080, 400), duration, font_small, "white")
 
-        icons = Image.open("AviaxMusic/assets/play_icons.png").convert("RGBA")
+        icons = Image.open("shizukabots/assets/play_icons.png").convert("RGBA")
         bg.paste(icons, (x, 450), icons)
         bg.save(path)
 

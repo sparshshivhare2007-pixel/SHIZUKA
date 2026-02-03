@@ -10,19 +10,19 @@ from pytgcalls.__version__ import __version__ as pytgver
 from ntgcalls import __version__ as ntgver
 
 import config
-from AviaxMusic import app
-from AviaxMusic.core.userbot import assistants
-from AviaxMusic.misc import SUDOERS, mongodb
-from AviaxMusic.plugins import ALL_MODULES
-from AviaxMusic.utils.database import (
+from shizukabots import app
+from shizukabots.core.userbot import assistants
+from shizukabots.misc import SUDOERS, mongodb
+from shizukabots.plugins import ALL_MODULES
+from shizukabots.utils.database import (
     get_served_chats,
     get_served_users,
     get_sudoers,
     is_autoend,
     is_autoleave,
 )
-from AviaxMusic.utils.decorators.language import language, languageCB
-from AviaxMusic.utils.inline.stats import back_stats_buttons, stats_buttons
+from shizukabots.utils.decorators.language import language, languageCB
+from shizukabots.utils.inline.stats import back_stats_buttons, stats_buttons
 from config import BANNED_USERS
 
 async def answer_callback(query: CallbackQuery, text: str = None, alert: bool = False):

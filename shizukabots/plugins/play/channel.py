@@ -2,9 +2,9 @@ from pyrogram import filters
 from pyrogram.enums import ChatMembersFilter, ChatMemberStatus, ChatType
 from pyrogram.types import Message
 
-from AviaxMusic import app
-from AviaxMusic.utils.database import set_cmode
-from AviaxMusic.utils.decorators.admins import AdminActual
+from shizukabots import app
+from shizukabots.utils.database import set_cmode
+from shizukabots.utils.decorators.admins import AdminActual
 from config import BANNED_USERS
 
 

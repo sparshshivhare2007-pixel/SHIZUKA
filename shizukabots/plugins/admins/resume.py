@@ -1,11 +1,11 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from AviaxMusic import app
-from AviaxMusic.core.call import Aviax
-from AviaxMusic.utils.database import is_music_playing, music_on
-from AviaxMusic.utils.decorators import AdminRightsCheck
-from AviaxMusic.utils.inline import close_markup
+from shizukabots import app
+from shizukabots.core.call import Aviax
+from shizukabots.utils.database import is_music_playing, music_on
+from shizukabots.utils.decorators import AdminRightsCheck
+from shizukabots.utils.inline import close_markup
 from config import BANNED_USERS
 
 

@@ -1,12 +1,12 @@
 from pyrogram import filters
 from pyrogram.types import Message
-from AviaxMusic import app
-from AviaxMusic.core.call import Aviax
-from AviaxMusic.misc import SUDOERS, db
-from AviaxMusic.utils import AdminRightsCheck
-from AviaxMusic.utils.database import is_active_chat, is_nonadmin_chat
-from AviaxMusic.utils.decorators.language import languageCB
-from AviaxMusic.utils.inline import close_markup, speed_markup
+from shizukabots import app
+from shizukabots.core.call import Aviax
+from shizukabots.misc import SUDOERS, db
+from shizukabots.utils import AdminRightsCheck
+from shizukabots.utils.database import is_active_chat, is_nonadmin_chat
+from shizukabots.utils.decorators.language import languageCB
+from shizukabots.utils.inline import close_markup, speed_markup
 from config import BANNED_USERS, adminlist
 checker = []
 

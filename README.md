@@ -5,10 +5,10 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/stars/TeamAviax/AviaxMusic?style=for-the-badge&color=blue" alt="GitHub stars">
-  <img src="https://img.shields.io/github/forks/TeamAviax/AviaxMusic?style=for-the-badge&color=blue" alt="GitHub forks">
-  <img src="https://img.shields.io/github/issues/TeamAviax/AviaxMusic?style=for-the-badge&color=red" alt="GitHub issues">
-  <img src="https://img.shields.io/github/license/TeamAviax/AviaxMusic?style=for-the-badge&color=green" alt="GitHub license">
+  <img src="https://img.shields.io/github/stars/TeamAviax/shizukabots?style=for-the-badge&color=blue" alt="GitHub stars">
+  <img src="https://img.shields.io/github/forks/TeamAviax/shizukabots?style=for-the-badge&color=blue" alt="GitHub forks">
+  <img src="https://img.shields.io/github/issues/TeamAviax/shizukabots?style=for-the-badge&color=red" alt="GitHub issues">
+  <img src="https://img.shields.io/github/license/TeamAviax/shizukabots?style=for-the-badge&color=green" alt="GitHub license">
 </p>
 
 <h2 align="center">Delivering Superior Music Experience to Telegram</h2>
@@ -96,7 +96,7 @@ API_KEY=your-api-key-here
 ---
 
 ## 🚀 Deploy on Heroku 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/CyberPixelPro/AviaxMusic)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/CyberPixelPro/shizukabots)
 
 ---
 
@@ -117,7 +117,7 @@ API_KEY=your-api-key-here
    ```
 4. **Clone the Repository**
    ```bash
-   git clone https://github.com/CyberPixelPro/AviaxMusic && cd AviaxMusic
+   git clone https://github.com/CyberPixelPro/shizukabots && cd shizukabots
    ```
 5. **Install Requirements**
    ```bash

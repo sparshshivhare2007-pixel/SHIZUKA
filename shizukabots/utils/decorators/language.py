@@ -1,5 +1,5 @@
-from AviaxMusic.misc import SUDOERS
-from AviaxMusic.utils.database import get_lang, is_maintenance
+from shizukabots.misc import SUDOERS
+from shizukabots.utils.database import get_lang, is_maintenance
 from config import SUPPORT_GROUP
 from strings import get_string
 

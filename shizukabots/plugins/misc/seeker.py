@@ -1,7 +1,7 @@
 import asyncio
 
-from AviaxMusic.misc import db
-from AviaxMusic.utils.database import get_active_chats, is_music_playing
+from shizukabots.misc import db
+from shizukabots.utils.database import get_active_chats, is_music_playing
 
 
 async def timer():

@@ -3,15 +3,15 @@ from datetime import datetime
 from pyrogram.enums import ChatType
 from pytgcalls.exceptions import NoActiveGroupCall
 import config
-from AviaxMusic import app
-from AviaxMusic.misc import db
-from AviaxMusic.core.call import Aviax, autoend, counter
-from AviaxMusic.utils.database import get_client, set_loop, is_active_chat, is_autoend, is_autoleave
+from shizukabots import app
+from shizukabots.misc import db
+from shizukabots.core.call import Aviax, autoend, counter
+from shizukabots.utils.database import get_client, set_loop, is_active_chat, is_autoend, is_autoleave
 import logging
 
 async def auto_leave():
     while not await asyncio.sleep(900):
-        from AviaxMusic.core.userbot import assistants
+        from shizukabots.core.userbot import assistants
         ender = await is_autoleave()
         if not ender:
             continue

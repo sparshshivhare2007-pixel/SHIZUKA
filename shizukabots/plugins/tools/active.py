@@ -1,9 +1,9 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from AviaxMusic import app
-from AviaxMusic.misc import SUDOERS
-from AviaxMusic.utils.database import (
+from shizukabots import app
+from shizukabots.misc import SUDOERS
+from shizukabots.utils.database import (
     get_active_chats,
     get_active_video_chats,
     remove_active_chat,

@@ -1,8 +1,8 @@
-from AviaxMusic.core.bot import Aviax
-from AviaxMusic.core.dir import dirr
-from AviaxMusic.core.git import git
-from AviaxMusic.core.userbot import Userbot
-from AviaxMusic.misc import dbb, heroku
+from shizukabots.core.bot import Aviax
+from shizukabots.core.dir import dirr
+from shizukabots.core.git import git
+from shizukabots.core.userbot import Userbot
+from shizukabots.misc import dbb, heroku
 
 from .logging import LOGGER
 

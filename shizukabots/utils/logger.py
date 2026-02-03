@@ -1,7 +1,7 @@
 from pyrogram.enums import ParseMode
 
-from AviaxMusic import app
-from AviaxMusic.utils.database import is_on_off
+from shizukabots import app
+from shizukabots.utils.database import is_on_off
 from config import LOG_GROUP_ID
 
 

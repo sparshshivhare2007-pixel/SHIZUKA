@@ -2,14 +2,14 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, Message
 
 import config
-from AviaxMusic import YouTube, app
-from AviaxMusic.core.call import Aviax
-from AviaxMusic.misc import db
-from AviaxMusic.utils.database import get_loop
-from AviaxMusic.utils.decorators import AdminRightsCheck
-from AviaxMusic.utils.inline import close_markup, stream_markup
-from AviaxMusic.utils.stream.autoclear import auto_clean
-from AviaxMusic.utils.thumbnails import gen_thumb
+from shizukabots import YouTube, app
+from shizukabots.core.call import Aviax
+from shizukabots.misc import db
+from shizukabots.utils.database import get_loop
+from shizukabots.utils.decorators import AdminRightsCheck
+from shizukabots.utils.inline import close_markup, stream_markup
+from shizukabots.utils.stream.autoclear import auto_clean
+from shizukabots.utils.thumbnails import gen_thumb
 from config import BANNED_USERS
 
 

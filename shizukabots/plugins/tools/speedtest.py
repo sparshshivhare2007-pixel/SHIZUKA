@@ -4,9 +4,9 @@ import speedtest
 from pyrogram import filters
 from pyrogram.types import Message
 
-from AviaxMusic import app
-from AviaxMusic.misc import SUDOERS
-from AviaxMusic.utils.decorators.language import language
+from shizukabots import app
+from shizukabots.misc import SUDOERS
+from shizukabots.utils.decorators.language import language
 
 
 def testspeed(m, _):

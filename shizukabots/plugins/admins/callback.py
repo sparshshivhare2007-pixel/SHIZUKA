@@ -3,10 +3,10 @@ import asyncio
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from AviaxMusic import YouTube, app
-from AviaxMusic.core.call import Aviax
-from AviaxMusic.misc import SUDOERS, db
-from AviaxMusic.utils.database import (
+from shizukabots import YouTube, app
+from shizukabots.core.call import Aviax
+from shizukabots.misc import SUDOERS, db
+from shizukabots.utils.database import (
     get_active_chats,
     get_lang,
     get_upvote_count,
@@ -17,11 +17,11 @@ from AviaxMusic.utils.database import (
     music_on,
     set_loop,
 )
-from AviaxMusic.utils.decorators.language import languageCB
-from AviaxMusic.utils.formatters import seconds_to_min
-from AviaxMusic.utils.inline import close_markup, stream_markup, stream_markup_timer
-from AviaxMusic.utils.stream.autoclear import auto_clean
-from AviaxMusic.utils.thumbnails import gen_thumb
+from shizukabots.utils.decorators.language import languageCB
+from shizukabots.utils.formatters import seconds_to_min
+from shizukabots.utils.inline import close_markup, stream_markup, stream_markup_timer
+from shizukabots.utils.stream.autoclear import auto_clean
+from shizukabots.utils.thumbnails import gen_thumb
 from config import (
     BANNED_USERS,
     SOUNCLOUD_IMG_URL,
