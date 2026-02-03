@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/stars/Tsparshshivhare2007-pixel/SHIZUKA?style=for-the-badge&color=blue" alt="GitHub stars">
+  <img src="https://img.shields.io/github/stars/sparshshivhare2007-pixel/SHIZUKA?style=for-the-badge&color=blue" alt="GitHub stars">
   <img src="https://img.shields.io/github/forks/sparshshivhare2007-pixel/SHIZUKA?style=for-the-badge&color=blue" alt="GitHub forks">
   <img src="https://img.shields.io/github/issues/sparshshivhare2007-pixel/SHIZUKA?style=for-the-badge&color=red" alt="GitHub issues">
   <img src="https://img.shields.io/github/license/sparshshivhare2007-pixel/SHIZUKA?style=for-the-badge&color=green" alt="GitHub license">
